@@ -1,0 +1,15 @@
+ASLRPP WORKSPACE SETUP
+
+Installation:
+	Just run the build_wspace.sh script. The workspace will be installed at ~/aslrpp, and will contain the contents of
+	this directory, as well as a 'source', 'make', and 'target' directory.
+		- The 'source' directory will contain two up-to-date git repositories with the current versions of the edited glibc
+		and binutils libraries.
+		- The 'make' directory contains the build directories for the glibc and binutils libraries.
+		- The 'target' directory contains the current and up-to-date copies of the loader (dl) and the linker (ld).
+
+Workflow:
+	Make your changes. Run the correct bash script in the workspace's root. Wait for the updated tool to build. Test.
+
+Versioning:
+	I'll put notes here of any branches I make, as well as the current state of the project.
